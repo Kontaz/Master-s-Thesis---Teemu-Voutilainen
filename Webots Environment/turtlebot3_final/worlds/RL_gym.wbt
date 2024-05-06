@@ -1,0 +1,61 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.3325717010673876 0.33257325173744184 0.8824914140533766 1.6954854683438934
+  position -0.003540253681826755 -3.2912050233238346 2.995709077561424
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2.08 2.08
+  wallHeight 0.22
+}
+DEF TB3 TurtleBot3Burger {
+  translation -0.7 -0.7 0
+  controller "load_PPO_Mk1"
+  supervisor TRUE
+}
+DEF BOX0 WoodenBox {
+  translation 0 0.33 -0.16
+  size 0.3 0.3 0.3
+}
+DEF BOX1 WoodenBox {
+  translation 0 0 -0.16
+  name "wooden box(1)"
+  size 0.3 0.3 0.3
+}
+DEF BOX2 WoodenBox {
+  translation 0 -0.33 -0.16
+  name "wooden box(2)"
+  size 0.3 0.3 0.3
+}
+DEF VALBOX0 WoodenBox {
+  translation -0.5 0.75 -0.3
+  name "wooden box(3)"
+  size 0.495 0.305 0.445
+}
+DEF VALBOX1 WoodenBox {
+  translation -0.5 0.25 -0.3
+  name "wooden box(4)"
+  size 0.495 0.305 0.445
+}
+DEF VALBOX2 WoodenBox {
+  translation 0.5 0.25 -0.3
+  name "wooden box(5)"
+  size 0.495 0.305 0.445
+}
+DEF VALBOX3 WoodenBox {
+  translation 0.5 0.75 -0.3
+  name "wooden box(6)"
+  size 0.495 0.305 0.445
+}
