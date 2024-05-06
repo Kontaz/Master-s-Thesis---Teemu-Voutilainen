@@ -1,7 +1,13 @@
 # Master-s-Thesis---Teemu-Voutilainen
 Container for sharing relevant files related to my master's thesis.
 
-Links for youtube playlist of the recorded runs.
+
+TO BE ADDED:
+- Desceptions of the file folders in this repository
+- Link to the thesis
+- Unofficial English translation
+
+Links for youtube playlist of the recorded runs. Note that the speeds of the recordings are done in real time but they have a different time scale, where the simulation runs about 8 times faster than the real robot.
 
 Simulation: https://www.youtube.com/playlist?list=PLqtqr34JV21MnWq3_ZvCsyY8HKSWUBNmW
 
