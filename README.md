@@ -1,11 +1,15 @@
 # Master-s-Thesis---Teemu-Voutilainen
-Container for sharing relevant files related to my master's thesis.
+Container for sharing relevant files related to my master's thesis. [Link to the thesis](http://urn.fi/urn:nbn:fi:uef-20241408)
 
 
 TO BE ADDED:
-- Desceptions of the file folders in this repository
-- Link to the thesis
 - Unofficial English translation
+
+Folders:
+- Models contains all the complete trained models used for the project. Within the selected models folder are the 6 models used in testing the quality of transition.
+- ROS2 VM Controller contains the ROS2 related files requred for running the model on robot.
+- Run data contains the data recorded during physical and simulated runs that went into testing of the transition (same runs as the youtube recordings).
+- Webots Environment has the complete folder for the Webots simulation, including the controllers (python code) used in training the models within the simulation.
 
 Links for youtube playlist of the recorded runs. Note that the speeds of the recordings are done in real time but they have a different time scale, where the simulation runs about 8 times faster than the real robot.
 
