@@ -2,9 +2,6 @@
 Container for sharing relevant files related to my master's thesis. [Link to the thesis](http://urn.fi/urn:nbn:fi:uef-20241408)
 
 
-TO BE ADDED:
-- Unofficial English translation
-
 Folders:
 - Models contains all the complete trained models used for the project. Within the selected models folder are the 6 models used in testing the quality of transition.
 - ROS2 VM Controller contains the ROS2 related files requred for running the model on robot.
@@ -28,3 +25,7 @@ List of other useful links in regards to the project:
 - ROS2 Humble website: https://docs.ros.org/en/humble/index.html
 - TB3 manual: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup
 - VM website: https://www.virtualbox.org/
+
+
+TO BE ADDED:
+- Unofficial English translation
